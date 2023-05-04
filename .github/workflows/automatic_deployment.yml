@@ -23,7 +23,6 @@ jobs:
 
       - name: Build ReactJS app
         run: |
-          cd class-and-prop
           npm install
           npm run build --if-present
         env:
@@ -34,5 +33,5 @@ jobs:
         env:
           REPO: self
           BRANCH: gh-pages
-          FOLDER: class-and-prop/build
+          FOLDER: build
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
