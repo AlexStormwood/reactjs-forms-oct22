@@ -30,8 +30,11 @@ export default class BusinessCardParent extends React.Component {
 	 * 
 	 * @param {string} stateKey Some key from the component state.
 	 * @param {string} newValue A new value relevant to that key.
-	 * eg.
+	 * 
+	 * Usage:
+	 * 
 	 * updateState("email", "test@email.com")
+	 * 
 	 * updateState("name","Alex")
 	 */
 	updateState = (stateKey, newValue) => {
